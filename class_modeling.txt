@@ -1,0 +1,41 @@
+### Class Modeling
+
+    ANIMAL
+------------------
++ name: str
+- domain: str
++ kingdom: str
+- phylum: str
++ class: str
+- order: str
+- suborder: str
+- family: str
+- genus: str
+- species: str
+- life_span: float
+--------------------
++ move()
++ vocalize()
+
+
+     BOOK
+--------------------
++ name: str
++ author: str
++ date: str
++ genre: str
+--------------------
+
+
+    VEHICLE
+--------------------
++ name: str
++ make: str
++ model: str
++ color: str
++ type: str
++ fuel_type: str
++ num_wheels: int
+---------------------
++ move()
++ turn()
