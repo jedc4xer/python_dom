@@ -1,0 +1,83 @@
+## Classes and Inheritance Modeling Exercise
+
+ANIMAL
+---------------
++ name: str
++ attributes: str or int
+---------------
++ move()
++ vocalizes()
+
+    FISH
+---------------
+"""" Inherits from Animal """
++ name: str
++ movement: str
++ living_environment: str
++ vocalization: str
+
+    SNAKE
+---------------
+"""" Inherits from Animal """
++ name: str
++ movement: str
++ living_environment: str
++ vocalization: str
+
+    PERSON
+---------------
+"""" Inherits from Animal """
++ name: str
++ movement: str
++ living_environment: str
++ vocalization: str
+
+BOOK
+---------------
++ name: str
++ attributes: str or int
+
+    TEXTBOOK
+---------------
+"""" Inherits from Book """
++ name: str
++ genre: str
++ date: date
++ authors: str
+    
+    ADDRESS BOOK
+---------------
+"""" Inherits from Book """
++ name: str
++ date: date
++ authors: str
+
+VEHICLE
+---------------
++ make: str
++ model: str
++ type: str
++ fuel_type: str
++ year: str
++ color: str
++ owner: str
+
+    CAR
+---------------
+"""" Inherits from Vehicle """
++ move()
+
+    BIKE
+---------------
+"""" Inherits from Vehicle """
++ move()
+
+    BOAT
+---------------
+"""" Inherits from Vehicle """
++ move()
+
+    HOT AIR BALLOON
+---------------
+"""" Inherits from Vehicle """
++ move()
